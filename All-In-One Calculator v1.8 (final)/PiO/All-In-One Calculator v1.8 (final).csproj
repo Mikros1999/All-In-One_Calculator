@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{187303BC-E075-426D-BFCD-8775970576BA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PiO</RootNamespace>
+    <AssemblyName>PiO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="operacije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="operacije.Designer.cs">
+      <DependentUpon>operacije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="razlomci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="razlomci.Designer.cs">
+      <DependentUpon>razlomci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="skracivanje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="skracivanje.Designer.cs">
+      <DependentUpon>skracivanje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_dig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_dig.Designer.cs">
+      <DependentUpon>_dig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="linearna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="linearna.Designer.cs">
+      <DependentUpon>linearna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kvadratna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kvadratna.Designer.cs">
+      <DependentUpon>kvadratna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="temperatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="temperatura.Designer.cs">
+      <DependentUpon>temperatura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rimskibr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rimskibr.Designer.cs">
+      <DependentUpon>rimskibr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kvaluta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kvaluta.Designer.cs">
+      <DependentUpon>kvaluta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="numzapis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="numzapis.Designer.cs">
+      <DependentUpon>numzapis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mui.Designer.cs">
+      <DependentUpon>mui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ugao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ugao.Designer.cs">
+      <DependentUpon>ugao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="konverter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="konverter.Designer.cs">
+      <DependentUpon>konverter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jednacine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jednacine.Designer.cs">
+      <DependentUpon>jednacine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="krug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="krug.Designer.cs">
+      <DependentUpon>krug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="procenti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="procenti.Designer.cs">
+      <DependentUpon>procenti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lopta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lopta.Designer.cs">
+      <DependentUpon>lopta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="valjak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="valjak.Designer.cs">
+      <DependentUpon>valjak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kupa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kupa.Designer.cs">
+      <DependentUpon>kupa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="piramida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="piramida.Designer.cs">
+      <DependentUpon>piramida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prizma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prizma.Designer.cs">
+      <DependentUpon>prizma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PiO3D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PiO3D.Designer.cs">
+      <DependentUpon>PiO3D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PiO2D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PiO2D.Designer.cs">
+      <DependentUpon>PiO2D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="trougao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trougao.Designer.cs">
+      <DependentUpon>trougao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cetvorougao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cetvorougao.Designer.cs">
+      <DependentUpon>cetvorougao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="petougao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="petougao.Designer.cs">
+      <DependentUpon>petougao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sestougao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sestougao.Designer.cs">
+      <DependentUpon>sestougao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="operacije.resx">
+      <DependentUpon>operacije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="razlomci.resx">
+      <DependentUpon>razlomci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="skracivanje.resx">
+      <DependentUpon>skracivanje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_dig.resx">
+      <DependentUpon>_dig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="linearna.resx">
+      <DependentUpon>linearna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kvadratna.resx">
+      <DependentUpon>kvadratna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="temperatura.resx">
+      <DependentUpon>temperatura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rimskibr.resx">
+      <DependentUpon>rimskibr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kvaluta.resx">
+      <DependentUpon>kvaluta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="numzapis.resx">
+      <DependentUpon>numzapis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mui.resx">
+      <DependentUpon>mui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="konverter.resx">
+      <DependentUpon>konverter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jednacine.resx">
+      <DependentUpon>jednacine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="krug.resx">
+      <DependentUpon>krug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="procenti.resx">
+      <DependentUpon>procenti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lopta.resx">
+      <DependentUpon>lopta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ugao.resx">
+      <DependentUpon>ugao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="valjak.resx">
+      <DependentUpon>valjak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kupa.resx">
+      <DependentUpon>kupa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PiO2D.resx">
+      <DependentUpon>PiO2D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PiO3D.resx">
+      <DependentUpon>PiO3D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="piramida.resx">
+      <DependentUpon>piramida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prizma.resx">
+      <DependentUpon>prizma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trougao.resx">
+      <DependentUpon>trougao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cetvorougao.resx">
+      <DependentUpon>cetvorougao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="petougao.resx">
+      <DependentUpon>petougao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sestougao.resx">
+      <DependentUpon>sestougao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
